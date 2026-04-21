@@ -16,7 +16,7 @@ author:
       - ref: 1 
 affiliations: 
   - id: 1
-    name: Departmento de Sociología, Universidad de Chile
+    name: Departamento de Sociología, Universidad de Chile
 date: today
 lang: "es"
 fontsize: 13pt
@@ -32,9 +32,9 @@ format:
     number-sections: true
     number-depth: 3
     theme:
-        - cosmo
+        - libs/ocs.scss
     code-link: true
-    title-block-banner: "#5a8d49"
+    title-block-banner: true
     include-in-header:
       text: |
         <style>
