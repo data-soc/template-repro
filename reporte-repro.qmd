@@ -1,0 +1,101 @@
+---
+title: "Reporte de Reproducibilidad"
+subtitle: "Artículo: "
+author:
+  - name: Autor 1
+    email: mail@mail.com 
+    affiliations:
+      - ref: 1
+  - name: Autor 2
+    email: mail@mail.com 
+    affiliations:
+      - ref: 1
+  - name: Autor 3
+    email: mail@mail.com 
+    affiliations:
+      - ref: 1 
+affiliations: 
+  - id: 1
+    name: Departmento de Sociología, Universidad de Chile
+date: today
+lang: "es"
+fontsize: 13pt
+format:
+  html:
+    code-fold: true
+    code-summary: "Show the code"
+    toc: true
+    toc-location: right
+    toc-depth: 2
+    toc-expand: 2
+    toc-title: Contenidos
+    number-sections: true
+    number-depth: 3
+    theme:
+        - cosmo
+    code-link: true
+    title-block-banner: "#5a8d49"
+    include-in-header:
+      text: |
+        <style>
+          h1.title {
+            color: #ffffff !important;
+          }
+          .subtitle {
+            color: #ffffff !important;
+          }
+        </style>
+editor_options: 
+  chunk_output_type: console
+# bibliography: "input/bib/mi_coleccion.bib"
+csl: "input/bib/apa6.csl"
+---
+
+# Selección de artículo/reporte
+
+- Referencia del artículo seleccionado
+- Breve resumen del artículo seleccionado
+- Justificación de la selección del artículo
+
+# Evaluación de reproducibilidad
+
+Análisis detallado del artículo seleccionado, evaluando los siguientes aspectos:
+
+  -   **Disponibilidad de datos**: ¿El artículo proporciona acceso a los datos utilizados en el estudio? Si no es así, ¿qué dificultades se enfrentaron para obtener los datos?
+  -   **Disponibilidad de código**: ¿El artículo proporciona acceso al código utilizado para el análisis? Si es así, ¿cómo se puede acceder?
+  -   **Documentación**: ¿El artículo incluye una descripción clara de los métodos y procedimientos utilizados en el estudio? ¿Es suficiente para que otro investigador pueda replicar el estudio?
+  -   **Transparencia**: ¿El artículo proporciona información sobre los posibles conflictos de interés, financiamiento, y otros aspectos relacionados con la transparencia de la investigación?   
+
+# Análisis reproducible
+
+Seleccionar un resultado específico del artículo (por ejemplo, una tabla de resultados o una figura) y tratar de reproducirlo utilizando los datos y el código proporcionados. Documentar el proceso de reproducción, incluyendo cualquier dificultad encontrada y cómo se resolvió.
+
+## Resultado a reproducir
+
+- Imagen de tabla(s), figura(s) o resultado específico del artículo seleccionado, junto a una breve descripción.
+
+## Proceso de reproducción
+
+- Descripción detallada del proceso seguido para reproducir el resultado seleccionado, incluyendo los pasos realizados, las herramientas utilizadas, y cualquier ajuste necesario para lograr la reproducción. Incluye las siguientes sub secciones:
+
+### Procesamiento
+
+- Incluye el código utilizado para procesar los datos, junto con una explicación de cada paso. 
+
+- Los datos originales deben ser llamados desde input/data/original, el código de procesamiento se debe incluir en este mismo archivo (reporte-repro.qmd).
+
+### Reproducción
+
+- Generación de tabla o figura a reproducir.
+
+
+# Conclusiones
+
+Basándose en el análisis realizado, escriban una conclusión sobre el nivel de reproducibilidad del artículo seleccionado.
+
+# Recomendaciones
+
+Recomendaciones para mejorar la reproducibilidad del artículo, si es necesario.
+
+# Referencias
+
