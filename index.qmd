@@ -1,6 +1,7 @@
 ---
 title: "Reporte de Reproducibilidad"
-subtitle: "Artículo: "
+subtitle: "Artículo: [título del artículo a reproducir]
+ <br><a href='https://github.com/data-soc/template-repro' target='_blank' ><i class='bi bi-github'></i></a>" # reemplazar con dirección al repositorio del proyecto
 author:
   - name: Autor 1
     email: mail@mail.com 
@@ -43,13 +44,15 @@ format:
           }
           .subtitle {
             color: #ffffff !important;
-          }
+          }x
         </style>
 editor_options: 
   chunk_output_type: console
 # bibliography: "input/bib/mi_coleccion.bib"
 csl: "input/bib/apa6.csl"
 ---
+
+
 
 # Selección de artículo/reporte
 
@@ -87,7 +90,6 @@ Seleccionar un resultado específico del artículo (por ejemplo, una tabla de re
 ### Reproducción
 
 - Generación de tabla o figura a reproducir.
-
 
 # Conclusiones
 
