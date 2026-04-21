@@ -46,6 +46,10 @@ format:
             color: #ffffff !important;
           }x
         </style>
+  pdf:
+    toc: true
+    number-sections: true
+    geometry: margin=2.5cm
 editor_options: 
   chunk_output_type: console
 # bibliography: "input/bib/mi_coleccion.bib"
