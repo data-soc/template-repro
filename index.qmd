@@ -105,3 +105,17 @@ Recomendaciones para mejorar la reproducibilidad del artículo, si es necesario.
 
 # Referencias
 
+::: {#refs}
+:::
+
+# Apéndice
+
+## Material suplementario
+
+- Incluyan aquí detalles metodológicos adicionales, en caso de ser necesario
+
+## Código
+
+- Incluir acá el código original, en caso de estar disponible.
+
+
