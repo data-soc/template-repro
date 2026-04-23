@@ -17,18 +17,8 @@ template-repro/
  |- index.html
  |- index.pdf
  |- index.qmd
- |- input/
- |  |- bib/
- |  |- data/
- |  |  |- original/
- |  |  |- proc/
- |  |- images/
- |  |- original-code/
  |- libs/
  |  |- ocs.scss
- |- output/
- |  |- graphs/
- |  |- tables/
  |- processing/
  |  |- README-prod.md
  |  |- prod_analysis.Rmd
