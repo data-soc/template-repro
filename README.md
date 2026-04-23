@@ -4,7 +4,7 @@ Link al reporte [**AQUÍ**](https://data-soc.github.io/template-repro/)
 
 Este repositorio contiene una plantilla para el reporte de reproducibilidad del Trabajo 1 del curso [Investigación Social Abierta](https://cienciasocialabierta.cl/2026/). La plantilla está diseñada para ser clonada y modificada por cada estudiante, siguiendo el protocolo [IPO](https://lisacoes.com/protocolos/a-ipo-rep/) (IInput-Processing-Output) y utilizando el formato Quarto.
 
-![](https://lisacoes.com/protocolos/a-ipo-rep/ipo-hex.png)
+<img src="https://lisacoes.com/protocolos/a-ipo-rep/ipo-hex.png" alt="IPO" width="220" />
 
 ## Working tree del proyecto
 
@@ -17,8 +17,18 @@ template-repro/
  |- index.html
  |- index.pdf
  |- index.qmd
+ |- input/
+ |  |- bib/
+ |  |- data/
+ |  |  |- original/
+ |  |  |- proc/
+ |  |- images/
+ |  |- original-code/
  |- libs/
  |  |- ocs.scss
+ |- output/
+ |  |- graphs/
+ |  |- tables/
  |- processing/
  |  |- README-prod.md
  |  |- prod_analysis.Rmd
