@@ -17,8 +17,25 @@ template-repro/
  |- index.html
  |- index.pdf
  |- index.qmd
+ |- input/
+ |  |- bib/
+ |  |  |- .gitkeep
+ |  |- data/
+ |  |  |- original/
+ |  |  |  |- .gitkeep
+ |  |  |- proc/
+ |  |  |  |- .gitkeep
+ |  |- images/
+ |  |  |- .gitkeep
+ |  |- original-code/
+ |  |  |- .gitkeep
  |- libs/
  |  |- ocs.scss
+ |- output/
+ |  |- graphs/
+ |  |  |- .gitkeep
+ |  |- tables/
+ |  |  |- .gitkeep
  |- processing/
  |  |- README-prod.md
  |  |- prod_analysis.Rmd
