@@ -13,32 +13,33 @@ Este proyecto se organiza de la siguiente manera:
 <!-- WORKING_TREE_START -->
 ```text
 template-repro/
-|- index.qmd
-|- index.html
-|- index.pdf
-|- README.md
-|- libs/
-|  |- ocs.scss
-|- input/
-|  |- bib/
-|  |- data/
-|  |  |- original/
-|  |  |- proc/
-|  |- images/
-|  |- original-code/
-|- processing/
-|  |- prod_analysis.Rmd
-|  |- prod_analysis.html
-|  |- prod_prep.Rmd
-|  |- prod_prep.html
-|  |- README-prod.md
-|- output/
-|  |- graphs/
-|  |- tables/
-|- index_files/
-|- reporte-repro_files/
+ |- README.md
+ |- index.html
+ |- index.pdf
+ |- index.qmd
+ |- input/
+ |  |- bib/
+ |  |- data/
+ |  |  |- original/
+ |  |  |- proc/
+ |  |- images/
+ |  |- original-code/
+ |- libs/
+ |  |- ocs.scss
+ |- output/
+ |  |- graphs/
+ |  |- tables/
+ |- processing/
+ |  |- README-prod.md
+ |  |- prod_analysis.Rmd
+ |  |- prod_analysis.html
+ |  |- prod_prep.Rmd
+ |  |- prod_prep.html
+ |- scripts/
+ |  |- update-working-tree.sh
 ```
+<!-- WORKING_TREE_END -->
 
-Este working tree se actualiza automaticamente al hacer commit mediante una github action que se encuetra definida en el archivo `.github/workflows/update-working-tree.yml`. El propósito de esta acción es mantener un registro actualizado de la estructura del proyecto, lo que facilita la navegación y organización de los archivos para los estudiantes.
+Este working tree incorpora las carpetas y archivos principales relevantes del repo (omite algunas) y se actualiza automáticamente al hacer commit mediante una github action que se encuentra definida en el archivo `.github/workflows/update-working-tree.yml`. El propósito de esta acción es mantener un registro actualizado de la estructura del proyecto, lo que facilita la navegación y organización de los archivos para los estudiantes.
 
 
