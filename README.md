@@ -13,29 +13,24 @@ Este proyecto se organiza de la siguiente manera:
 <!-- WORKING_TREE_START -->
 ```text
 template-repro/
+ |- .vscode/
+ |  |- settings.json
  |- README.md
  |- index.html
  |- index.pdf
  |- index.qmd
  |- input/
  |  |- bib/
- |  |  |- .gitkeep
  |  |- data/
  |  |  |- original/
- |  |  |  |- .gitkeep
  |  |  |- proc/
- |  |  |  |- .gitkeep
  |  |- images/
- |  |  |- .gitkeep
  |  |- original-code/
- |  |  |- .gitkeep
  |- libs/
  |  |- ocs.scss
  |- output/
  |  |- graphs/
- |  |  |- .gitkeep
  |  |- tables/
- |  |  |- .gitkeep
  |- processing/
  |  |- README-prod.md
  |  |- prod_analysis.Rmd
