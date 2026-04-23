@@ -5,6 +5,7 @@ REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 README_FILE="$REPO_ROOT/README.md"
 MAX_DEPTH="${MAX_DEPTH:-4}"
 EXCLUDE_PATHS="${EXCLUDE_PATHS:-.git,.github,.Rhistory,index_files,reporte-repro_files}"
+EXCLUDE_FILES="${EXCLUDE_FILES:-.gitkeep}"
 
 if [[ ! -f "$README_FILE" ]]; then
   echo "README.md not found in $REPO_ROOT" >&2
@@ -46,7 +47,7 @@ generate_tree() {
     cd "$REPO_ROOT"
     echo "$root_name/"
     find . -mindepth 1 -maxdepth "$MAX_DEPTH" \
-      -path './.git' -prune -o -print \
+      -path './.git' -prune -o -name '.gitkeep' -prune -o -print \
       | sed 's|^\./||' \
       | LC_ALL=C sort \
       | awk -F'/' -v excludes="$EXCLUDE_PATHS" '
