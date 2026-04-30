@@ -24,6 +24,7 @@ template-repro/
  |  |- data/
  |  |  |- original/
  |  |  |- proc/
+ |  |  |  |- proc_casen22.rds
  |  |- images/
  |  |- original-code/
  |- libs/
@@ -39,6 +40,7 @@ template-repro/
  |  |- prod_prep.html
  |- scripts/
  |  |- update-working-tree.sh
+ |- test.qmd
 ```
 <!-- WORKING_TREE_END -->
 
