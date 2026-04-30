@@ -1,0 +1,26 @@
+---
+title: test
+format: html
+---
+
+```{r}
+#| echo: false
+
+pacman::p_load(knitr, digest, stargazer, sjPlot, codebook, summarytools, dplyr, tidyr,
+ tidyLPA, lme4, ggplot2, ggeffects, skimr, table1, patchwork, here, kableExtra, ggthemes, tidyverse,
+ ggbreak, texreg, coefplot, plotly, modelsummary)
+options(scipen = 999)
+```
+
+```{r}
+load("input/data/original/casen_2022.RData")
+```
+
+
+```{r}
+proc_casen22 <- casen_2022 %>% 
+  select(sexo, pco2, activ, folio, nucleo, edad)
+
+saveRDS(proc_casen22, 
+  here("input", "data", "proc", "proc_casen22.rds"), compress = FALSE)
+```
