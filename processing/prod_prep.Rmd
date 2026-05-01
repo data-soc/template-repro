@@ -12,6 +12,7 @@ output:
     number_sections: yes
 editor_options: 
   chunk_output_type: console
+execute-dir: .. # para comenzar todos los paths desde la raíz y no tener problemas al renderizar
 ---
 
 # Setup
@@ -22,6 +23,7 @@ knitr::opts_chunk$set(warning = FALSE,
                       echo = TRUE 
                       )
 options(scipen=9999) # desactivar notacion cientifica
+knitr::opts_knit$set(root.dir = "..") # para comenzar todos los paths desde la raíz y no tener problemas al renderizar
 ```
 
 ```{css, echo=FALSE}
