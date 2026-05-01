@@ -40,7 +40,6 @@ template-repro/
  |  |- prod_prep.html
  |- scripts/
  |  |- update-working-tree.sh
- |- test.qmd
 ```
 <!-- WORKING_TREE_END -->
 
